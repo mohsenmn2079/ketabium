@@ -1,0 +1,27 @@
+{
+  "name": "ketabium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass -w src/sass/app.scss src/css/app.css",
+    "convert-rtl": "rtlcss src/css/app.css dist/css/app.css",
+    "build-js": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "jquery.countdown": "^1.2.8",
+    "popper.js": "^1.16.1",
+    "swiper": "^8.3.1"
+  },
+  "devDependencies": {
+    "rtlcss": "^3.5.0",
+    "sass": "^1.53.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
