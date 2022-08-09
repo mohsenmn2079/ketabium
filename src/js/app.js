@@ -87,15 +87,6 @@ $(window).ready(function () {
                     spaceBetween : 8,
                 }
             },
-            // virtual: {
-            //     slides: (function () {
-            //         const slides = [];
-            //         for (var i = 0; i < 600; i += 1) {
-            //         slides.push('Slide ' + (i + 1));
-            //         }
-            //         return slides;
-            //     })(),
-            // },
         });
     })
 })
